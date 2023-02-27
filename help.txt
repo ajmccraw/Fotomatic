@@ -1,0 +1,22 @@
+As the “Web Dev” path became the “Front-End” path I went back to make up the stuff that were not there before, including this project.
+[Link to project 121]
+This Project took me by surprise - It’s really not well explained but is actually simpler than it seems (too bad it took me a whole day to realize that).
+
+Sans code samples, here is what I did to make it work:
+
+HTML (index.html):
+
+1. Link the CSS stylesheet to your html! :wink:
+2. Fix the links to the images so they would lead to their location in your local directory.
+3. The comment that precedes the “quotes” section is missing a closing “>”, rendering the rest of the html a comment. Close the comment tag, to show the quotes section and footer.
+
+
+CSS (style.css):
+
+- .image-container img : add a rule to set the maximum width as 100% - this is to make sure images are scaled down to the size of their container instead of being cut or overflowing.
+- Set the z-index of the header to a positive whole number.
+- sign-up section: add a background image that covers the whole container and doesn’t repeat.
+- Add a 38px padding to the feature content container.
+- The class selectors in the quotes section are incorrectly formatted.
+
+I hope this helps! :slight_smile:
